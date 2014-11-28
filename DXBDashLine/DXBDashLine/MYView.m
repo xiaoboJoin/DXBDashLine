@@ -93,28 +93,28 @@
 
 // Only override drawRect: if you perform custom drawing.
  //An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-//    // Drawing code
-//    CGFloat dashPattern[]= {3.0, 2};
-//    
-//    context =UIGraphicsGetCurrentContext();
-//    CGContextSetRGBStrokeColor(context, 1.0, 1.0, 1.0, 1.0);
-//    // And draw with a blue fill color
-//    CGContextSetRGBFillColor(context, 0.0, 0.0, 1.0, 1.0);
-//    // Draw them with a 2.0 stroke width so they are a bit more visible.
-//    CGContextSetLineWidth(context, 4.0);
-//    CGContextSetLineDash(context, 0.0, dashPattern, 2);
-//    
-//    CGContextAddRect(context, self.bounds);
-//    
-//    CGContextStrokePath(context);
-//    
-//    
-//    // Close the path
-//    CGContextClosePath(context);
-//    // Fill & stroke the path
-//    CGContextDrawPath(context, kCGPathFillStroke);
-}
+//- (void)drawRect:(CGRect)rect {
+////    // Drawing code
+////    CGFloat dashPattern[]= {3.0, 2};
+////    
+////    context =UIGraphicsGetCurrentContext();
+////    CGContextSetRGBStrokeColor(context, 1.0, 1.0, 1.0, 1.0);
+////    // And draw with a blue fill color
+////    CGContextSetRGBFillColor(context, 0.0, 0.0, 1.0, 1.0);
+////    // Draw them with a 2.0 stroke width so they are a bit more visible.
+////    CGContextSetLineWidth(context, 4.0);
+////    CGContextSetLineDash(context, 0.0, dashPattern, 2);
+////    
+////    CGContextAddRect(context, self.bounds);
+////    
+////    CGContextStrokePath(context);
+////    
+////    
+////    // Close the path
+////    CGContextClosePath(context);
+////    // Fill & stroke the path
+////    CGContextDrawPath(context, kCGPathFillStroke);
+//}
 
 
 @end
